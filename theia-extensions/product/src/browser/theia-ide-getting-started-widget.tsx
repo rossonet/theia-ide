@@ -142,7 +142,8 @@ export class TheiaIDEGettingStartedWidget extends GettingStartedWidget {
 
     protected renderHeader(): React.ReactNode {
         return <div className='gs-header'>
-            <h1>Eclipse Theia <span className='gs-blue-header'>IDE</span></h1>
+	    <h1>Rossonet IDE</h1>
+            <h2>fork of Eclipse Theia <span className='gs-blue-header'>IDE</span></h2>
             {this.renderVersion()}
         </div>;
     }
